@@ -1,0 +1,11 @@
+Download Dependencies using Following code
+    ->sudo apt-get install libsfml-dev
+
+Downlaod SFML code from https://www.sfml-dev.org/index.php which contains
+    ->bin
+    ->SFML-2.5.1
+
+To run the code
+    ->g++ -c main.cpp
+    ->g++ main.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system -lpthread
+    ->./sfml-app 
